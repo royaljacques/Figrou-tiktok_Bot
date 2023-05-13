@@ -1,0 +1,106 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+#menu-bar {
+  color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    background: #34475a;
+    -webkit-app-region: drag;
+  }
+  
+  #menu-bar > div {
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menubar-btn {
+    -webkit-app-region: no-drag;
+  }
+  
+  
+  
+  button {
+    height: 100%;
+    padding: 0 15px;
+    border: none;
+    background: transparent;
+    outline: none;
+  }
+  
+  button:hover {
+    background: rgba(221, 221, 221, 0.2);
+  }
+  
+  #close-btn:hover {
+    background: rgb(255, 0, 0);
+  }
+   
+  button i {
+    color: white;
+  }
+
+  .container {
+    height: 100%;
+    width: 100%;
+  }
+  .container_title{
+    color: #34475a;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+  }
+  .text_container{
+    color: #34475a;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    width: 50%;
+    position: relative;
+  }
+  
+  input{
+    background-color: #18181d;
+    width: 300px;
+    height: 44px;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    font-size: 22px;
+    font: 22pxx system-ui;
+    padding: 6px ;
+    border: none;
+    text-align: center;
+    outline: none
+    
+  }
+  input::placeholder{
+    color: white;
+    font-size: 22px;
+  }
+  .send{
+    height: 44px;
+    background-color: #18181d;
+    border-radius: 0 20px 20px 0;
+    padding: 6px;
+  }
+  .send:hover{
+    cursor: pointer;
+    background-color: #34475a;
+  }
